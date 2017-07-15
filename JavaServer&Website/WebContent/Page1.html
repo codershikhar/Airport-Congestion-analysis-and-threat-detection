@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SHIELDn@v</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="Page1.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="Page1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <a class="logo">SHIELDn@v</a>
+            </div>
+        </nav>
+    </div>
+    <h2 style="color:powderblue;">Enter flight number</h2><br />
+    <div class="flightInfo">
+        <form id="FlightNo" name="FlightNo" action="Page1.js">
+            <input type="text" id="flightNoTextbox" class="flightTextbox" placeholder="eg. f1234" /><br />
+            <select id="selectClass" class="flightTextbox">
+                <option value="Business">Business</option>
+                <option value="Economic" selected="selected">Economic</option>
+            </select><br />
+            <button type="button" id="flightNoSubmit" class="btn btn-primary" onclick="acceptFlightNo()">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+body {
+}
+.logo{
+    padding: 3% 0 0 5%;
+    font-family:'Times New Roman';
+    font-size:30px;
+}
+.fullImage {
+    margin-top: 0;
+}
+.airportLayout {
+    padding-bottom:30px;
+    width:100%;
+    height:1000px;
+    z-index:-1;
+}
+.layoutImg{
+    height:100%;
+    width:100%;
+}
+.tooltip-inner{
+    max-width:none;
+    white-space:nowrap;
+    background-size:auto;
+}
+/*Departure1 checkin queue*/
+.tooltipClass1{
+    min-height:100px;
+    margin-top:-800px;
+    z-index:1;
+}
+.Dep1CheckQList{
+    padding-left:12vw;
+}
+.Dep1CheckQList > li{
+    text-decoration:none;
+    display: inline-block;
+    padding-right:5vw;
+    padding-top:289px;
+}
+
+/*Departure1 security queue*/
+.tooltipClass2{
+    min-height:100px;
+    margin-top:-300px;
+    z-index:1;
+}
+.Dep1SecQList{
+    padding-left:15vw;
+}
+.Dep1SecQList > li{
+    text-decoration:none;
+    display: inline-block;
+    padding-right:4vw;
+    padding-top:120px;
+}
+/*departure2 checkin*/
+.tooltipClass3{
+    min-height:100px;
+    margin-top:-200px;
+    z-index:1;
+}
+.Dep2CheckQList{
+    padding-left:31vw;
+    padding-top:335px;
+}
+.Dep2CheckQList > li{
+    text-decoration:none;
+    display: inline-block;
+    padding-right:5vw;
+}
+
+/*Departure2 security queue*/
+.tooltipClass4{
+    min-height:100px;
+    margin-top:-300px;
+    z-index:1;
+}
+.Dep2SecQList{
+    padding-left:35vw;
+    padding-top:105px;
+}
+.Dep2SecQList > li{
+    text-decoration:none;
+    display: inline-block;
+    padding-right:4vw;
+}
+/*departure3 checkin*/
+.tooltipClass5{
+    min-height:100px;
+    margin-top:-200px;
+    z-index:1;
+}
+.Dep3CheckQList{
+    padding-left:56vw;
+    padding-top:334px;
+}
+.Dep3CheckQList > li{
+    text-decoration:none;
+    display: inline-block;
+    padding-right:5vw;
+}
+
+/*Departure3 security queue*/
+.tooltipClass6{
+    min-height:100px;
+    margin-top:-300px;
+    z-index:1;
+}
+.Dep3SecQList{
+    padding-left:60vw;
+    padding-top:107px;
+}
+.Dep3SecQList > li{
+    text-decoration:none;
+    display: inline-block;
+    padding-right:4vw;
+}
+
+/*Boarding gate queues*/
+.tooltipClass7{
+    min-height:100px;
+    margin-top:-350px;
+    z-index:1;
+}
+.BoardingGateQList{
+    padding-left:10vw;
+    padding-top:45px;
+}
+.BoardingGateQList > li{
+    text-decoration:none;
+    display: inline-block;
+    padding-right:20vw;
+}
+.BoardingGate2Q{
+    padding-left:14vw;
+    padding-right:0px;
+}
+.BoardingGate3Q{
+    margin-left:-2vw;
+    padding-left:1vw;
+}
+/*Entry gate queues*/
+.tooltipClass8{
+    min-height:900px;
+    margin-top:-350px;
+    z-index:1;
+}
+.EntryGateQList{
+    padding-left:8vw;
+    padding-top:1070px;
+}
+.EntryGateQList > li{
+    text-decoration:none;
+    display: inline-block;
+    padding-right:20vw;
+}
+.EntryGate2Q{
+    padding-left:2vw;
+}
+.EntryGate3Q{
+    padding-left:9vw;
+}
+
+/*stop signal*/
+.displayStopDivHidden{
+    margin-top: -500px;
+    z-index: 1;
+    visibility:hidden;
+}
+.displayStopDivVisible{
+    margin-top: -800px;
+    z-index: 1;
+    visibility:visible;
+    height:30px;
+    width:30px;
+    padding-left: 62vw;
+    padding-top: 780px;
+}
+.stopSignalClass {
+    height:30px;
+    width:30px;
+}
+/*Business to economic*/
+.tooltipClass10{
+    min-height:100px;
+    margin-top:-530px;
+    z-index:1;
+}
+.businessToEco{
+    padding-left:4vw;
+    padding-top:100px;
+}
+.businessToEco > li{
+    text-decoration:none;
+    display: inline-block;
+    padding-right:20vw;
+}
+.businessToEcoDep2{
+    padding-left:10vw;
+}
+.rect{
+    width:150px;
+    height:40px;
+    border:1px solid #0094ff;
+    background-color:#0094ff;
+    border-radius:5px;
+    color:white;
+    text-align:center;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}
+/*connection details*/
+.displayArea{
+    margin-top:-500px;
+    padding-top:100px;
+}
