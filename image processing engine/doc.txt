@@ -1,0 +1,14 @@
+#main dir structure
+./cascades : stores all required cascades the cascades named "bag" "rishcascade" and "cascade" was made by our team S.H.I.E.L.D
+./red_corner : stores faces of people who need to be recognized
+./init.py : checks if cascades and redcorner exists, checks checksum of important codes
+./main.py : accepts the addresses of all the feeds and starts feed analysis on all available feeds
+    *1 runs feeds from the file feeds.addr file (see below) containing the feed address
+    *2 analysis of feed to detect people count them and send the count and service time to the machine learning using socket
+    *3 report the threats of both of the suspect and the un-attended bagage (extra features)
+
+./feeds.addr : each line contains the information of 1 feed in the following format (MAKE changes to this file in order to run on a different computers)
+               FORMAT:  <feed addr or URL>,<feed name>,<cascade name>,<lower trim value>,<upper trim value>,<unique serial index>
+./suspect.py : To test the suspect recognition unit (just a code not necessarily required)
+others are test codes
+
